@@ -35,9 +35,11 @@
     <h1 class="h3 mb-3 fw-normal text-center">Login</h1>
 
     <div class="form-floating m-2">
+     {% csrf_token %}
       <input type="email" name="email" class="form-control" id="floatingInput" placeholder="Email">
     </div>
     <div class="form-floating m-2">
+     {% csrf_token %}
       <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password">
     </div>
 
