@@ -60,8 +60,6 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'web_project.urls'
 
-CSRF_TRUSTED_ORIGINS = ['https://*.azurewebsites.net']
-
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
