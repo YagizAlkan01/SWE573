@@ -28,8 +28,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-CSRF_TRUSTED_ORIGINS = ['https://*.azurewebsites.net']
-
 if DEBUG:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend' # During development only
     
@@ -62,7 +60,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'web_project.urls'
 
-
+CSRF_TRUSTED_ORIGINS = ['https://*.azurewebsites.net']
 
 TEMPLATES = [
     {
