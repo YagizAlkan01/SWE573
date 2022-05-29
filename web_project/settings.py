@@ -145,8 +145,5 @@ CKEDITOR_CONFIGS = {
     'default': {
         'toolbar' : 'full',
     }
-
-
-CSRF_TRUSTED_ORIGINS = ['https://*.azurewebsites.net/']
     
 }
