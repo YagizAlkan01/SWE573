@@ -76,8 +76,6 @@ TEMPLATES = [
     },
 ]
 
-CSRF_TRUSTED_ORIGINS = ['*']
-
 AUTH_USER_MODEL = 'account.Account'
 
 WSGI_APPLICATION = 'web_project.wsgi.application'
@@ -147,4 +145,8 @@ CKEDITOR_CONFIGS = {
     'default': {
         'toolbar' : 'full',
     }
+
+
+CSRF_TRUSTED_ORIGINS = ['https://*.azurewebsites.net/']
+    
 }
