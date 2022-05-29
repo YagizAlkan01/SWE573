@@ -150,3 +150,5 @@ CKEDITOR_CONFIGS = {
     }
     
 }
+
+CSRF_TRUSTED_ORIGINS = ['https://*.azurewebsites.net']
